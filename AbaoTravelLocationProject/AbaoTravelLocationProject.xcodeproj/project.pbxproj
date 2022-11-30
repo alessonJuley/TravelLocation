@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBAE67428EFA41E00138F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAE67328EFA41E00138F68 /* AppDelegate.swift */; };
+		3FBAE67628EFA41E00138F68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAE67528EFA41E00138F68 /* SceneDelegate.swift */; };
+		3FBAE67B28EFA41E00138F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAE67928EFA41E00138F68 /* Main.storyboard */; };
+		3FBAE67D28EFA41F00138F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAE67C28EFA41F00138F68 /* Assets.xcassets */; };
+		3FBAE68028EFA41F00138F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAE67E28EFA41F00138F68 /* LaunchScreen.storyboard */; };
+		3FBAE68828EFA45600138F68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAE68728EFA45600138F68 /* HomeViewController.swift */; };
+		3FBAE68A28EFA8B700138F68 /* AddSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAE68928EFA8B700138F68 /* AddSiteViewController.swift */; };
+		3FBAE68C28EFA9A700138F68 /* SitesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAE68B28EFA9A700138F68 /* SitesTableViewController.swift */; };
+		3FBAE68E28EFA9C400138F68 /* SiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAE68D28EFA9C400138F68 /* SiteTableViewCell.swift */; };
+		3FBAE69028EFAA4400138F68 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAE68F28EFAA4400138F68 /* Site.swift */; };
+		3FCA8BFB28EFB17100C9B73B /* SiteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA8BFA28EFB17100C9B73B /* SiteDetailsViewController.swift */; };
+		3FCA8BFD28EFFA7300C9B73B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA8BFC28EFFA7300C9B73B /* LoginViewController.swift */; };
+		3FCA8BFF28EFFA7F00C9B73B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA8BFE28EFFA7F00C9B73B /* RegisterViewController.swift */; };
+		3FCA8C0128F001B100C9B73B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA8C0028F001B100C9B73B /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FBAE67028EFA41E00138F68 /* AbaoTravelLocationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbaoTravelLocationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBAE67328EFA41E00138F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FBAE67528EFA41E00138F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FBAE67A28EFA41E00138F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FBAE67C28EFA41F00138F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBAE67F28EFA41F00138F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FBAE68128EFA41F00138F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBAE68728EFA45600138F68 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3FBAE68928EFA8B700138F68 /* AddSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSiteViewController.swift; sourceTree = "<group>"; };
+		3FBAE68B28EFA9A700138F68 /* SitesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitesTableViewController.swift; sourceTree = "<group>"; };
+		3FBAE68D28EFA9C400138F68 /* SiteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteTableViewCell.swift; sourceTree = "<group>"; };
+		3FBAE68F28EFAA4400138F68 /* Site.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
+		3FCA8BFA28EFB17100C9B73B /* SiteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteDetailsViewController.swift; sourceTree = "<group>"; };
+		3FCA8BFC28EFFA7300C9B73B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FCA8BFE28EFFA7F00C9B73B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3FCA8C0028F001B100C9B73B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FBAE66D28EFA41E00138F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBAE66728EFA41E00138F68 = {
+			isa = PBXGroup;
+			children = (
+				3FBAE67228EFA41E00138F68 /* AbaoTravelLocationProject */,
+				3FBAE67128EFA41E00138F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FBAE67128EFA41E00138F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAE67028EFA41E00138F68 /* AbaoTravelLocationProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FBAE67228EFA41E00138F68 /* AbaoTravelLocationProject */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAE67328EFA41E00138F68 /* AppDelegate.swift */,
+				3FBAE67528EFA41E00138F68 /* SceneDelegate.swift */,
+				3FBAE67928EFA41E00138F68 /* Main.storyboard */,
+				3FBAE67C28EFA41F00138F68 /* Assets.xcassets */,
+				3FBAE67E28EFA41F00138F68 /* LaunchScreen.storyboard */,
+				3FBAE68128EFA41F00138F68 /* Info.plist */,
+				3FBAE68728EFA45600138F68 /* HomeViewController.swift */,
+				3FBAE68928EFA8B700138F68 /* AddSiteViewController.swift */,
+				3FBAE68B28EFA9A700138F68 /* SitesTableViewController.swift */,
+				3FBAE68D28EFA9C400138F68 /* SiteTableViewCell.swift */,
+				3FBAE68F28EFAA4400138F68 /* Site.swift */,
+				3FCA8BFA28EFB17100C9B73B /* SiteDetailsViewController.swift */,
+				3FCA8BFC28EFFA7300C9B73B /* LoginViewController.swift */,
+				3FCA8BFE28EFFA7F00C9B73B /* RegisterViewController.swift */,
+				3FCA8C0028F001B100C9B73B /* User.swift */,
+			);
+			path = AbaoTravelLocationProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBAE66F28EFA41E00138F68 /* AbaoTravelLocationProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBAE68428EFA41F00138F68 /* Build configuration list for PBXNativeTarget "AbaoTravelLocationProject" */;
+			buildPhases = (
+				3FBAE66C28EFA41E00138F68 /* Sources */,
+				3FBAE66D28EFA41E00138F68 /* Frameworks */,
+				3FBAE66E28EFA41E00138F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbaoTravelLocationProject;
+			productName = AbaoTravelLocationProject;
+			productReference = 3FBAE67028EFA41E00138F68 /* AbaoTravelLocationProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FBAE66828EFA41E00138F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3FBAE66F28EFA41E00138F68 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FBAE66B28EFA41E00138F68 /* Build configuration list for PBXProject "AbaoTravelLocationProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FBAE66728EFA41E00138F68;
+			productRefGroup = 3FBAE67128EFA41E00138F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBAE66F28EFA41E00138F68 /* AbaoTravelLocationProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBAE66E28EFA41E00138F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBAE68028EFA41F00138F68 /* LaunchScreen.storyboard in Resources */,
+				3FBAE67D28EFA41F00138F68 /* Assets.xcassets in Resources */,
+				3FBAE67B28EFA41E00138F68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBAE66C28EFA41E00138F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA8BFD28EFFA7300C9B73B /* LoginViewController.swift in Sources */,
+				3FCA8BFF28EFFA7F00C9B73B /* RegisterViewController.swift in Sources */,
+				3FBAE69028EFAA4400138F68 /* Site.swift in Sources */,
+				3FBAE68E28EFA9C400138F68 /* SiteTableViewCell.swift in Sources */,
+				3FBAE67428EFA41E00138F68 /* AppDelegate.swift in Sources */,
+				3FBAE68C28EFA9A700138F68 /* SitesTableViewController.swift in Sources */,
+				3FCA8BFB28EFB17100C9B73B /* SiteDetailsViewController.swift in Sources */,
+				3FBAE67628EFA41E00138F68 /* SceneDelegate.swift in Sources */,
+				3FBAE68828EFA45600138F68 /* HomeViewController.swift in Sources */,
+				3FBAE68A28EFA8B700138F68 /* AddSiteViewController.swift in Sources */,
+				3FCA8C0128F001B100C9B73B /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FBAE67928EFA41E00138F68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBAE67A28EFA41E00138F68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FBAE67E28EFA41F00138F68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBAE67F28EFA41F00138F68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FBAE68228EFA41F00138F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FBAE68328EFA41F00138F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FBAE68528EFA41F00138F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y632B5RV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AbaoTravelLocationProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MIT.AbaoTravelLocationProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FBAE68628EFA41F00138F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y632B5RV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AbaoTravelLocationProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MIT.AbaoTravelLocationProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FBAE66B28EFA41E00138F68 /* Build configuration list for PBXProject "AbaoTravelLocationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBAE68228EFA41F00138F68 /* Debug */,
+				3FBAE68328EFA41F00138F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBAE68428EFA41F00138F68 /* Build configuration list for PBXNativeTarget "AbaoTravelLocationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBAE68528EFA41F00138F68 /* Debug */,
+				3FBAE68628EFA41F00138F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FBAE66828EFA41E00138F68 /* Project object */;
+}

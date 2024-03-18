@@ -3,7 +3,7 @@
 This travel location iPhone app allows users to store a site information with name, address, description and an image. The app also allows the user to search any saved sites by name, date of information saved, address and description, and display the results in a table view controller. The registration screen for new users allows users to register before using the app and a login screen for existing users to log in. The app is developed using MVC architecture, the client (view) will make requests to the controller, which handles the business logic. The controller processes the client requests after contacting the back-end database (model) to retrieve and store data.
 
 
-<h1>Features</h1>
+# Features
 <table>
   <thead>
     <tr>
